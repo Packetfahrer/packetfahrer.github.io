@@ -1,0 +1,8 @@
+#!/bin/bash
+cd /Users/renekahle/GitHub/packetfahrer.github.io/
+
+#dpkg-scanpackages debs /dev/null > Packages
+
+dpkg-scanpackages debs / > Packages
+
+bzip2 -fks Packages
