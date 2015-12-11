@@ -1,18 +1,3 @@
-Package: com.packetfahrer.deleteallmessages
-Version: 1.0.0
-Architecture: iphoneos-arm
-Installed-Size: 72
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: debs//com.packetfahrer.deleteallmessages_1.0.0_iphoneos-arm.deb
-Size: 9070
-MD5sum: 93b80e1e5b4bd5ccdcabdf0219146abe
-SHA1: 0ff3cf25581c518b07e1b8b3f9ea51dc6b0c986b
-SHA256: 8e30a9703f911d3cc62979af99740cf345a4589dd8f22347d60dea7daea5e497
-Section: Tweaks
-Description: Delete all Messages !
-Author: Rene Kahle <packetfahrer@web.de>
-Name: DeleteAllMessages
-
 Package: com.packetfahrer.noclick
 Version: 1.0.0
 Architecture: iphoneos-arm
