@@ -3,7 +3,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Installed-Size: 72
 Depends: firmware (>= 8.0), mobilesubstrate
-Filename: debs//com.packetfahrer.deleteallmessages_1.0.0_iphoneos-arm.deb
+Filename: debs/com.packetfahrer.deleteallmessages_1.0.0_iphoneos-arm.deb
 Size: 9070
 MD5sum: 93b80e1e5b4bd5ccdcabdf0219146abe
 SHA1: 0ff3cf25581c518b07e1b8b3f9ea51dc6b0c986b
@@ -18,7 +18,7 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Installed-Size: 136
 Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: debs//com.packetfahrer.noclick_1.0.0_iphoneos-arm.deb
+Filename: debs/com.packetfahrer.noclick_1.0.0_iphoneos-arm.deb
 Size: 5734
 MD5sum: 89d9ed200757dd6a1ea90a02658435dc
 SHA1: d9e3815e067884eac13025bb8075ded2cb513436
@@ -27,4 +27,24 @@ Section: Tweaks
 Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
+
+Package: preferenceloader
+Version: 2.2.5~alpha1
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Installed-Size: 292
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.5~alpha1_iphoneos-arm.deb
+Size: 20654
+MD5sum: b7ae60c50b9ce8528553cabdeb403803
+SHA1: cf8074fb731e08821d64d87954bcdf68ccff95d4
+SHA256: 9e435d9ab4b4194ece9dbaa88db214118a4ee5fa5b05ec652a081a724f5615d6
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
 
