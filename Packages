@@ -28,22 +28,6 @@ Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
-Package: com.ryleyangus.pokepatch
-Version: 1.0.0-11
-Architecture: iphoneos-arm
-Maintainer: Ryley Angus
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: debs/com.ryleyangus.pokepatch_1.0.0-11_iphoneos-arm.deb
-Size: 8694
-MD5sum: 2de27fa555e9f3fa87b7a6dcd2bde212
-SHA1: 514d2fa13b53250e1d0db238224e40821cbdbabb
-SHA256: 82abe1b5240a3d72cb6bf02b6687b30dfa776b2d05c73eb30d4713e8260196c8
-Section: Tweaks
-Description: A patch to bypass the jailbreak detection in the Pokemon Go app.
-Author: Ryley Angus
-Name: PokePatch
-
 Package: preferenceloader
 Version: 2.2.5~alpha1
 Architecture: iphoneos-arm
