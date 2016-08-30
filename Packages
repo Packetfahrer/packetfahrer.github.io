@@ -29,16 +29,16 @@ Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
 Package: com.packetfahrer.stopalarmios8
-Version: 1.4.2
+Version: 1.4.3
 Architecture: iphoneos-arm
 Installed-Size: 884
 Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 8.1)
 Conflicts: unknow
-Filename: debs/com.packetfahrer.stopalarmios8_1.4.2_iphoneos-arm.deb
-Size: 208876
-MD5sum: 4f20366da66fe476e7c4277bacd76303
-SHA1: 0d1d7b0fc92af72a7661ceb39a4f669465d8ea10
-SHA256: fbd4c6ac6035f491320180ec13eed9209906cf370ea68d8fce15276e463cb894
+Filename: debs/com.packetfahrer.stopalarmios8_1.4.3_iphoneos-arm.deb
+Size: 208960
+MD5sum: 27c21685069d7d2512666959c3ea607b
+SHA1: b73a005db82a72b61e04dfbc1fe99c4e4504664a
+SHA256: a5d6a24d17eac44919e1e96e7ba3bb0671fda2f712dcef4e668f25988e7a38f2
 Section: Tweaks
 Homepage: http://www.facebook.com/dk78dk
 Description: Snooze or Stops an Alarm!
