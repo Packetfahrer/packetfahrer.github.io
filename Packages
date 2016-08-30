@@ -28,23 +28,6 @@ Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
-Package: com.packetfahrer.stopalarmios8
-Version: 1.4.3
-Architecture: iphoneos-arm
-Installed-Size: 884
-Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 8.1)
-Conflicts: unknow
-Filename: debs/com.packetfahrer.stopalarmios8_1.4.3_iphoneos-arm.deb
-Size: 209022
-MD5sum: 8a25c080fdd8adc03c39f354b3ed6980
-SHA1: 036190762012b8966a6cc1b4563b80df49e19eca
-SHA256: 53ae55cbf3f98eab4533c1a5dbb768ecdb46aa2ac43fe930d2e1a2bd016cecd1
-Section: Tweaks
-Homepage: http://www.facebook.com/dk78dk
-Description: Snooze or Stops an Alarm!
-Author: Rene Kahle <packetfahrer@web.de>
-Name: StopAlarm iOS 8+
-
 Package: preferenceloader
 Version: 2.2.5~alpha1
 Architecture: iphoneos-arm
