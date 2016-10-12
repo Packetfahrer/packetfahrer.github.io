@@ -31,16 +31,16 @@ Name: NoClick
 Package: libstatusbar1
 Version: 0.9.9.3-2
 Architecture: iphoneos-arm
-Installed-Size: 304
+Installed-Size: 268
 Depends: firmware (>=7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar
 Replaces: libstatusbar
 Provides: libstatusbar
 Filename: debs/libstatusbar1_0.9.9.3-2_iphoneos-arm.deb
-Size: 46376
-MD5sum: f4873e00e794c6356dfd52c525bcae23
-SHA1: bf53e7ae2cac7adb821bd8c78339bef96246a3e8
-SHA256: c336f48f558157e73ce7bcd9f05853820ee0c7a3cc93e24c6b1760f254727fcd
+Size: 44908
+MD5sum: f542563dcca9a5130027e4819ec9f162
+SHA1: 7a42aa223bd275eed52d770851ae7665d4f6d25e
+SHA256: 4025af953944bfb1a72ac5d3a62ce3b5611b7390021e332e3fd2d6e7558763c6
 Section: Tweaks
 Description: Based almost 100% on libstatusbar by phoenix3200. Compiled for armv7 and arm64.
 Name: libstatusbar1
