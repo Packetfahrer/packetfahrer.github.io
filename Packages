@@ -29,20 +29,20 @@ Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
 Package: libstatusbar1
-Version: 0.9.9.3-1
+Version: 0.9.9.3-2
 Architecture: iphoneos-arm
 Installed-Size: 304
 Depends: firmware (>=7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar
 Replaces: libstatusbar
 Provides: libstatusbar
-Filename: debs/libstatusbar1_0.9.9.3-1_iphoneos-arm.deb
-Size: 46950
-MD5sum: 97b8678f662a281bcee9212e45e5a9e9
-SHA1: 814570d16096ab313d544bf5a33888d2cf500cb1
-SHA256: 9556f1c7ed0055b0864d64b88fbc311d754d48f87d0dbe6808ed9e1f4e038f31
+Filename: debs/libstatusbar1_0.9.9.3-2_iphoneos-arm.deb
+Size: 46376
+MD5sum: f4873e00e794c6356dfd52c525bcae23
+SHA1: bf53e7ae2cac7adb821bd8c78339bef96246a3e8
+SHA256: c336f48f558157e73ce7bcd9f05853820ee0c7a3cc93e24c6b1760f254727fcd
 Section: Tweaks
-Description: Based almost 100% on libstatusbar by phoenix3200. This version is for my personal use and removes the upper limit CoreFoundation (iOS version) restriction and attempts to keep it from loading inside of non Application processes. Compiled for iOS9.x, armv7 and arm64.
+Description: Based almost 100% on libstatusbar by phoenix3200. Compiled for armv7 and arm64.
 Name: libstatusbar1
 
 Package: preferenceloader
