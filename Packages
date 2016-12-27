@@ -1,3 +1,20 @@
+Package: com.iadam1n.statusswitcher
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: iAdam1n
+Installed-Size: 120
+Pre-Depends: firmware (>=9.0)
+Depends: mobilesubstrate
+Filename: debs/com.iadam1n.statusswitcher_1.0.1_iphoneos-arm.deb
+Size: 3046
+MD5sum: a79884b38c70efabdb38cf36c0aea4eb
+SHA1: cb131e80e911f86c926616fa5d198d34fd803fd4
+SHA256: 0fb59d0fd0da75d36fa1aabb39a8f0526b7e959697752cda4c81a6a73f808489
+Section: Tweaks
+Description: Show status bar in app switcher.
+Author: iAdam1n
+Name: StatusSwitcher
+
 Package: com.packetfahrer.deleteallmessages
 Version: 1.0.0
 Architecture: iphoneos-arm
