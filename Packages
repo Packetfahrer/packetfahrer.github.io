@@ -45,22 +45,19 @@ Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
-Package: libstatusbar1
-Version: 0.9.9.3-3
+Package: libstatusbar
+Version: 1:0.9.9.4-0
 Architecture: iphoneos-arm
-Installed-Size: 268
+Installed-Size: 200
 Depends: firmware (>=7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: libstatusbar
-Replaces: libstatusbar
-Provides: libstatusbar
-Filename: debs/libstatusbar1_0.9.9.3-3_iphoneos-arm.deb
-Size: 44832
-MD5sum: 8abc3a5a9820906b05624d013786a69d
-SHA1: 05912b673e5a2999e58a1f471f7f04871ec3f006
-SHA256: ef145db35bc57197589a7a0702770b11b760f5012793eabc6a3b911b51748fbe
+Filename: debs/libstatusbar_0.9.9.4-0_iphoneos-arm.deb
+Size: 33326
+MD5sum: 639e1f863e2f8e40de0d6b1a67f0e48a
+SHA1: 49444e023a3e7ad79769a273e209ebdae351f97d
+SHA256: a845a2814d26f0e4c399e15a60d67caaa4535f651bdb89dc7d5dbec7e4c9af1b
 Section: Tweaks
-Description: Based almost 100% on libstatusbar by phoenix3200. Compiled for armv7 and arm64.
-Name: libstatusbar1
+Description: Based almost 100% on libstatusbar by phoenix3200. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
+Name: libstatusbar
 
 Package: preferenceloader
 Version: 2.2.5~alpha1
