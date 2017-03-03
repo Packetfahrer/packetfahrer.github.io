@@ -63,19 +63,18 @@ Description: Based almost 100% on libstatusbar by phoenix3200. This version is f
 Name: libmoorecon
 
 Package: or.thebigboss.libstatus9
-Version: 1:0.0.0.1-6
+Version: 1:0.0.0.1-7
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 184
 Depends: firmware (>=9.1), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar,libmoorecon
 Replaces: libstatusbar,libmoorecon
-Provides: libstatusbar
-Filename: debs/or.thebigboss.libstatus9_0.0.0.1-6_iphoneos-arm.deb
-Size: 32966
-MD5sum: c61c177b7572df72309528fc509f5276
-SHA1: f8df8e85337e3869fd155584eb58bf5ccb552d7b
-SHA256: e187a565e8765e2e3b234635af108322a0c64b8fd35c0a0eaa4cf8cb57c21d32
+Filename: debs/or.thebigboss.libstatus9_0.0.0.1-7_iphoneos-arm.deb
+Size: 32984
+MD5sum: e8e9c5f4af01f91e30000e1163f1d62b
+SHA1: 066337a7f2fd570bc0dbd6e415dec579678af0b6
+SHA256: 214a650d6505b7985fcb6adef417b902cc0d4de7e0be1a431df8e06f594d8c93
 Section: Development
 Description: Based almost 100% on libstatusbar by phoenix3200. This version replaces libstatusbar. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
 Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
