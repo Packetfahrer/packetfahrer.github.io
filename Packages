@@ -49,13 +49,13 @@ Package: com.packetfahrer.nomoremissed
 Version: 1.1.3
 Architecture: iphoneos-arm
 Installed-Size: 4336
-Depends: mobilesubstrate,applist, preferenceloader (>= 2.2.3), firmware (>= 8.0), firmware (>= 8.4) | libstatusbar (>= 1:0.9.9.0-1), firmware (<< 9.1) | or.thebigboss.libstatus9 (>= 1:0.0.0.1-6)
+Depends: mobilesubstrate,applist, preferenceloader (>= 2.2.3), firmware (>= 8.0), firmware (>= 8.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (<< 9.1) | libstatus9 (>= 1:0.0.0.1-6)
 Conflicts: com.julioverne.dpkgcheck, com.sull.dpkgcheck , libmoorecon
 Filename: debs/com.packetfahrer.nomoremissed_1.1.3_iphoneos-arm.deb
-Size: 982146
-MD5sum: 923e101d6716223f9d2f6bd3ff9633a5
-SHA1: 093ff3222f225b83edbcb88bec95f0ba54b592ad
-SHA256: 0e37db1a3859a14d1cc8d43f0dbc94ab1ab607597fe145672427641cb53111a4
+Size: 993450
+MD5sum: 41341438dec433403ab622ad82dac0c9
+SHA1: bdcf13b7d912a2722784855e1274f454b364ae52
+SHA256: 2871a33e77f417e6e35118bc14881e34c6be9275ab33b3f2839905246aa29a3e
 Section: Tweaks
 Description: Don´t miss Calls, Messages!
 Author: Rene Kahle <packetfahrer@web.de>
