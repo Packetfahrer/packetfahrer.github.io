@@ -45,6 +45,23 @@ Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
+Package: libmoorecon
+Version: 0.9.9.0~beta4
+Architecture: iphoneos-arm
+Installed-Size: 184
+Depends: firmware (>=7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar
+Replaces: libstatusbar
+Provides: libstatusbar
+Filename: debs/libmoorecon_0.9.9.0~beta4_iphoneos-arm.deb
+Size: 32358
+MD5sum: aca8c78535a193ea12c7ceff9630d055
+SHA1: c7c9d64de07562bd29403dab0aaa17737ee368a4
+SHA256: 595ed34054b325df9fcb4cfd5deef87ca6d28b5d515ea9d81e828fe0db1708f8
+Section: Tweaks
+Description: Based almost 100% on libstatusbar by phoenix3200. This version is for my personal use and removes the upper limit CoreFoundation (iOS version) restriction and attempts to keep it from loading inside of non Application processes. Compiled for iOS9.x, armv7 and arm64.
+Name: libmoorecon
+
 Package: or.thebigboss.libstatus9
 Version: 1:0.0.0.1-6
 Architecture: iphoneos-arm
