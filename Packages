@@ -1,66 +1,3 @@
-Package: com.iadam1n.statusswitcher
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer: iAdam1n
-Installed-Size: 120
-Pre-Depends: firmware (>=9.0)
-Depends: mobilesubstrate
-Filename: debs/com.iadam1n.statusswitcher_1.0.1_iphoneos-arm.deb
-Size: 3046
-MD5sum: a79884b38c70efabdb38cf36c0aea4eb
-SHA1: cb131e80e911f86c926616fa5d198d34fd803fd4
-SHA256: 0fb59d0fd0da75d36fa1aabb39a8f0526b7e959697752cda4c81a6a73f808489
-Section: Tweaks
-Description: Show status bar in app switcher.
-Author: iAdam1n
-Name: StatusSwitcher
-
-Package: com.packetfahrer.deleteallmessages
-Version: 1.0.0
-Architecture: iphoneos-arm
-Installed-Size: 72
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: debs/com.packetfahrer.deleteallmessages_1.0.0_iphoneos-arm.deb
-Size: 9070
-MD5sum: 93b80e1e5b4bd5ccdcabdf0219146abe
-SHA1: 0ff3cf25581c518b07e1b8b3f9ea51dc6b0c986b
-SHA256: 8e30a9703f911d3cc62979af99740cf345a4589dd8f22347d60dea7daea5e497
-Section: Tweaks
-Description: Delete all Messages !
-Author: Rene Kahle <packetfahrer@web.de>
-Name: DeleteAllMessages
-
-Package: com.packetfahrer.noclick
-Version: 1.0.0
-Architecture: iphoneos-arm
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: debs/com.packetfahrer.noclick_1.0.0_iphoneos-arm.deb
-Size: 5734
-MD5sum: 89d9ed200757dd6a1ea90a02658435dc
-SHA1: d9e3815e067884eac13025bb8075ded2cb513436
-SHA256: 4356a55501c4bfdc7a418b8ed6faf1cabd4de143a523240d90823cb2c7f0c358
-Section: Tweaks
-Description: No Click Sound if Music is Played!
-Author: Rene Kahle <packetfahrer@web.de>
-Name: NoClick
-
-Package: com.packetfahrer.nomoremissed
-Version: 1.3.3-2
-Architecture: iphoneos-arm
-Installed-Size: 4336
-Depends: firmware (>= 8.0), mobilesubstrate,applist, preferenceloader (>= 2.2.3), firmware (>= 8.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (<< 9.1) | org.thebigboss.libstatus9
-Conflicts: com.julioverne.dpkgcheck, com.sull.dpkgcheck , libmoorecon
-Filename: debs/com.packetfahrer.nomoremissed_1.3.3-2_iphoneos-arm.deb
-Size: 994194
-MD5sum: 046e735dedd80e347feaae80af376be2
-SHA1: 2be94c1ff511ef0f19e88a053e108d84acbd429f
-SHA256: 02db2d25c08f43872285c7855eb4b3aeb1992fb74ff7f118d1ed003e727be048
-Section: Tweaks
-Description: Don´t miss Calls, Messages!
-Author: Rene Kahle <packetfahrer@web.de>
-Name: NoMoreMissed
-
 Package: libmoorecon
 Version: 0.9.9.0~beta4
 Architecture: iphoneos-arm
@@ -78,7 +15,7 @@ Section: Tweaks
 Description: Based almost 100% on libstatusbar by phoenix3200. This version is for my personal use and removes the upper limit CoreFoundation (iOS version) restriction and attempts to keep it from loading inside of non Application processes. Compiled for iOS9.x, armv7 and arm64.
 Name: libmoorecon
 
-Package: or.thebigboss.libstatus9
+Package: org.thebigboss.libstatus9
 Version: 1:0.0.0.1-7
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -86,35 +23,16 @@ Installed-Size: 184
 Depends: firmware (>=9.1), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar,libmoorecon
 Replaces: libstatusbar,libmoorecon
-Filename: debs/or.thebigboss.libstatus9_0.0.0.1-7_iphoneos-arm.deb
-Size: 32984
-MD5sum: e8e9c5f4af01f91e30000e1163f1d62b
-SHA1: 066337a7f2fd570bc0dbd6e415dec579678af0b6
-SHA256: 214a650d6505b7985fcb6adef417b902cc0d4de7e0be1a431df8e06f594d8c93
+Provides: libstatusbar
+Filename: debs/org.thebigboss.libstatus9_1:0.0.0.1-7_iphoneos-arm.deb
+Size: 32952
+MD5sum: c71b3147e1d8fb793e1798bd15249368
+SHA1: 21fc644b9abaf1ac9fbd3fe3d592f89efe6d61f0
+SHA256: a5bcc4c60194ca480a576ac9d4f8add3eb2a1f776a57c2f64774c2012eb9046a
 Section: Development
 Description: Based almost 100% on libstatusbar by phoenix3200. This version replaces libstatusbar. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
 Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
 Author: Rene Kahle <packetfahrer@web.de>
 Dev: Rene Kahle <packetfahrer@web.de>
 Name: libstatus9
-
-Package: preferenceloader
-Version: 2.2.5~alpha1
-Architecture: iphoneos-arm
-Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
-Installed-Size: 292
-Depends: mobilesubstrate
-Filename: debs/preferenceloader_2.2.5~alpha1_iphoneos-arm.deb
-Size: 20654
-MD5sum: b7ae60c50b9ce8528553cabdeb403803
-SHA1: cf8074fb731e08821d64d87954bcdf68ccff95d4
-SHA256: 9e435d9ab4b4194ece9dbaa88db214118a4ee5fa5b05ec652a081a724f5615d6
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Description: load preferences in style
-Tag: role::hacker, purpose::library
-Author: Dustin Howett <cydia.pl@relay.howett.net>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
-Dev: dustinhowett
-Name: PreferenceLoader
 
