@@ -45,6 +45,27 @@ Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
+Package: or.thebigboss.libstatus9
+Version: 1:0.0.0.1-6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 184
+Depends: firmware (>=9.1), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: libstatusbar,libmoorecon
+Replaces: libstatusbar,libmoorecon
+Provides: libstatusbar
+Filename: debs/or.thebigboss.libstatus9_0.0.0.1-6_iphoneos-arm.deb
+Size: 32966
+MD5sum: c61c177b7572df72309528fc509f5276
+SHA1: f8df8e85337e3869fd155584eb58bf5ccb552d7b
+SHA256: e187a565e8765e2e3b234635af108322a0c64b8fd35c0a0eaa4cf8cb57c21d32
+Section: Development
+Description: Based almost 100% on libstatusbar by phoenix3200. This version replaces libstatusbar. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
+Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
+Author: Rene Kahle <packetfahrer@web.de>
+Dev: Rene Kahle <packetfahrer@web.de>
+Name: libstatus9
+
 Package: preferenceloader
 Version: 2.2.5~alpha1
 Architecture: iphoneos-arm
