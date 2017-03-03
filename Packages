@@ -20,15 +20,15 @@ Version: 1:0.0.0.1-7
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 184
-Depends: firmware (>=9.1), mobilesubstrate, com.rpetrich.rocketbootstrap
+Depends: firmware (>=8.1), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar,libmoorecon
 Replaces: libstatusbar,libmoorecon
-Provides: libstatusbar
-Filename: debs/org.thebigboss.libstatus9_1:0.0.0.1-7_iphoneos-arm.deb
-Size: 32952
-MD5sum: c71b3147e1d8fb793e1798bd15249368
-SHA1: 21fc644b9abaf1ac9fbd3fe3d592f89efe6d61f0
-SHA256: a5bcc4c60194ca480a576ac9d4f8add3eb2a1f776a57c2f64774c2012eb9046a
+Provides: libstatusbar, libmoorecon
+Filename: debs/org.thebigboss.libstatus9_0.0.0.1-7_iphoneos-arm.deb
+Size: 32986
+MD5sum: 62456ee2e0762daf5ff27c52a0f66841
+SHA1: 220b0509c4c14e09356d404e1a96614086a82502
+SHA256: 072183ca498b01080d1013d8bea67ae65a71e769d9d24ccafb5d5de477d5d812
 Section: Development
 Description: Based almost 100% on libstatusbar by phoenix3200. This version replaces libstatusbar. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
 Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
