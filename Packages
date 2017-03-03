@@ -46,21 +46,20 @@ Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
 Package: com.packetfahrer.nomoremissed
-Version: 2.1.0
+Version: 2.1.1
 Architecture: iphoneos-arm
 Installed-Size: 4336
-Depends: firmware (>= 8.0), mobilesubstrate,applist, preferenceloader (>= 2.2.3)
+Depends: firmware (>= 8.0), mobilesubstrate,applist, preferenceloader (>= 2.2.3), firmware (>= 8.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (<< 9.1) | or.thebigboss.libstatus9 (>= 1:0.0.0.1-6)
 Conflicts: com.julioverne.dpkgcheck, com.sull.dpkgcheck , libmoorecon
-Filename: debs/com.packetfahrer.nomoremissed_2.1.0_iphoneos-arm.deb
-Size: 990770
-MD5sum: 94b5ea38c8ac582aea7ca9315961fae7
-SHA1: 6bb55db47629d5ea906b4d6918a39abfcf45e491
-SHA256: 212ec8b07057c6f3d198107fab409e610a3a4a4bfe9e80ff1a7478d97ea945b0
+Filename: debs/com.packetfahrer.nomoremissed_2.1.1_iphoneos-arm.deb
+Size: 989256
+MD5sum: 392e2f6ea5f3400194872befcdbd2809
+SHA1: d0121bf14ad316b76c5e4bfc74bbb2d2c7c72c1f
+SHA256: 5113fccc6361113b4536195df03baeec9e1c81ca94acfe140831bc14104944a8
 Section: Tweaks
 Description: Don´t miss Calls, Messages!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoMoreMissed
-Recomends: firmware (>= 8.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (<< 9.1) | or.thebigboss.libstatus9 (>= 1:0.0.0.1-6)
 
 Package: libmoorecon
 Version: 0.9.9.0~beta4
