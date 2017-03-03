@@ -46,16 +46,16 @@ Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
 Package: com.packetfahrer.nomoremissed
-Version: 1.1.6-2
+Version: 1.1.6-3
 Architecture: iphoneos-arm
 Installed-Size: 4336
-Depends: mobilesubstrate,applist, preferenceloader (>= 2.2.3), firmware (>= 8.0), firmware (<= 9.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (<= 9.1) | org.thebigboss.libstatus9
+Depends: mobilesubstrate,applist, preferenceloader (>= 2.2.3), firmware (>= 8.0), firmware (<= 9.0) | libstatusbar (>= 1:0.9.9.0-1), firmware (>= 9.1) | org.thebigboss.libstatus9
 Conflicts: com.julioverne.dpkgcheck, com.sull.dpkgcheck , libmoorecon
-Filename: debs/com.packetfahrer.nomoremissed_1.1.6-2_iphoneos-arm.deb
-Size: 995750
-MD5sum: e945c9825c1b089a3a5bf06456756430
-SHA1: d80fbcff8bdd1476a6dd24276b409108c7be959e
-SHA256: 379ca767c996ea8877c4af9375c3e875c6e54e6427222b31537e79dfae01d819
+Filename: debs/com.packetfahrer.nomoremissed_1.1.6-3_iphoneos-arm.deb
+Size: 994356
+MD5sum: 58484d3c1b22876d101c375589143db7
+SHA1: f5125fd4dcdde327382174298b9cc6a28da4c0ce
+SHA256: 34b1d882ba1eaa8545acfaa6837e1195ff3f909d48688ba324b64fdc4eafca73
 Section: Tweaks
 Description: Don´t miss Calls, Messages!
 Author: Rene Kahle <packetfahrer@web.de>
