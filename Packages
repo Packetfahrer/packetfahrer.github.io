@@ -13,19 +13,3 @@ Description: No Click Sound if Music is Played!
 Author: Rene Kahle <packetfahrer@web.de>
 Name: NoClick
 
-Package: com.packetfahrer.nomoremissed
-Version: 1.1.7
-Architecture: iphoneos-arm
-Installed-Size: 5384
-Depends: firmware (>= 8.0), mobilesubstrate,applist, preferenceloader (>= 2.2.3), libstatusbar, firmware (<< 11.1) | org.thebigboss.libstatus9
-Conflicts: com.julioverne.dpkgcheck, com.sull.dpkgcheck
-Filename: debs/com.packetfahrer.nomoremissed_1.1.7_iphoneos-arm.deb
-Size: 1062026
-MD5sum: 07536559ee41e658832be5049b906518
-SHA1: 15f4c9952cabae1a6a7f3dbe2ecdeba02178151c
-SHA256: 2461f6ed21ae919200de686f32ee65e4dc6209d4926e2bde76a3f077cb88c5a3
-Section: Tweaks
-Description: Don´t miss Calls, Messages!
-Author: Rene Kahle <packetfahrer@web.de>
-Name: NoMoreMissed
-
