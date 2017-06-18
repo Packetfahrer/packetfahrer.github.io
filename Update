@@ -4,6 +4,5 @@ cd /Users/renekahle/GitHub/packetfahrer.github.io/
 #dpkg-scanpackages debs /dev/null > Packages
 
 dpkg-scanpackages -m  debs / >Packages
-#dpkg-scanpackages debs / > Packages
-#bzip2 Packages
+
 bzip2 -fks Packages
