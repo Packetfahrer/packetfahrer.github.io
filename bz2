@@ -1,5 +1,0 @@
-#!/bin/bash
-cd /Users/renekahle/GitHub/packetfahrer.github.io/
-
-
-bzip2 -fks Packages

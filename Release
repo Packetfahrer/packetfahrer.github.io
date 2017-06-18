@@ -1,8 +1,8 @@
-Origin: Packetfahrer
-Label: Packetfahrer
+Origin: ShadeZepheri Repo
+Label: Packetfahrer´s Repo
 Suite: stable
 Version: 1.0
 Codename: Packetfahrer
 Architectures: iphoneos-arm
 Components: main
-Description: Packetfahrer Repo
+Description: Packetfahrer´s Cydia Repository
