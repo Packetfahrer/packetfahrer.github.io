@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /Users/renekahle/GitHub/packetfahrer2.github.io/
+cd /Users/renekahle/GitHub/packetfahrer.github.io/
 
 #dpkg-scanpackages debs /dev/null > Packages
 
