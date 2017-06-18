@@ -1,0 +1,15 @@
+Package: com.packetfahrer.noclick
+Version: 1.0.0
+Architecture: iphoneos-arm
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 8.0)
+Filename: debs/com.packetfahrer.noclick_1.0.0_iphoneos-arm.deb
+Size: 5734
+MD5sum: 89d9ed200757dd6a1ea90a02658435dc
+SHA1: d9e3815e067884eac13025bb8075ded2cb513436
+SHA256: 4356a55501c4bfdc7a418b8ed6faf1cabd4de143a523240d90823cb2c7f0c358
+Section: Tweaks
+Description: No Click Sound if Music is Played!
+Author: Rene Kahle <packetfahrer@web.de>
+Name: NoClick
+
