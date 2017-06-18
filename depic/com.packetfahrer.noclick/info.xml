@@ -1,8 +1,8 @@
 <package>
-	<version>1.2</version>
+	<version>1.0</version>
 	<compatibility>
 		<firmware>
-			<miniOS>10.0</miniOS>
+			<miniOS>8.0</miniOS>
 		</firmware>
 	</compatibility>
 	<dependencies>
