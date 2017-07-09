@@ -16,6 +16,23 @@ Author: cole cabral
 Depiction: http://packetfahrer.github.io/depic/index.html?p=com.cabralcole.ccrecord
 Name: CCRecord
 
+Package: com.cabralcole.ccrecord
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: cole cabral
+Installed-Size: 352
+Depends: mobilesubstrate, firmware (>= 10.0)
+Recommends: org.thebigboss.libstatus9
+Filename: debs/com.cabralcole.ccrecord_2.0.1_iphoneos-arm.deb
+Size: 31466
+MD5sum: 2eef12ede9285180b37e9763414edbcb
+SHA1: f5878875cf96cde5643ba06a093400667c9c3ccf
+SHA256: d20337af09e279aba08def56267bc130e1b4ace6b13a30b35cb9d7701014cc87
+Section: Tweaks
+Description: Screen recording in control center.
+Author: cole cabral
+Name: CCRecord
+
 Package: com.packetfahrer.noclick
 Version: 1.0.0
 Architecture: iphoneos-arm
