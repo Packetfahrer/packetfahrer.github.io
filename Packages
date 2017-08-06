@@ -51,19 +51,19 @@ Depiction: http://packetfahrer.github.io/depic/index.html?p=com.packetfahrer.noc
 Name: NoClick
 
 Package: org.packetfahrer.libstatus9
-Version: 1:0.0.1.5-0
+Version: 1:0.0.1.7-0
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 296
-Depends: firmware (>=8.1), mobilesubstrate, com.rpetrich.rocketbootstrap
+Depends: firmware (>=1.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: libstatusbar,libmoorecon
 Replaces: libstatusbar ,libmoorecon
 Provides: libstatusbar (=0.9.9.0) ,libmoorecon (=0.9.9.0)
-Filename: debs/org.packetfahrer.libstatus9_1.0.0_iphoneos-arm.deb
-Size: 48394
-MD5sum: db32fa6415d0e8c56ba41c6931c79806
-SHA1: 86b61db5281ea488ec06cd324835365082270bec
-SHA256: b1f77c5e6c7826447f7c0f543883bf2d956dad7eebc4c535e725efef365a62a3
+Filename: debs/org.packetfahrer.libstatus9_1.0.1_iphoneos-arm.deb
+Size: 48360
+MD5sum: d0bea3f3a81d9a7d70db2f5fc4c9ad02
+SHA1: 7bf93f497b334112700c42c4ab9e9f4016954af4
+SHA256: 35c53095d4b5c1bff058c28f355164e24ec94b7c0d049a0aa6090c153dcdc535
 Section: Development
 Description: Based almost 100% on libstatusbar by phoenix3200. This version replaces libstatusbar. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
 Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
