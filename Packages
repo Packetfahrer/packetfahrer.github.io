@@ -50,24 +50,3 @@ Author: Rene Kahle <packetfahrer@web.de>
 Depiction: http://packetfahrer.github.io/depic/index.html?p=com.packetfahrer.noclick
 Name: NoClick
 
-Package: org.thebigboss.libstatus9
-Version: 1:0.0.1.5-0
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 296
-Depends: firmware (>=8.1), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: libstatusbar,libmoorecon
-Replaces: libstatusbar ,libmoorecon
-Provides: libstatusbar (=0.9.9.0) ,libmoorecon (=0.9.9.0)
-Filename: debs/org.thebigboss.libstatus9_1:0.0.1.5-0_iphoneos-arm.deb
-Size: 48378
-MD5sum: 7ccdd8e660fe2ab4c75e376410cd6586
-SHA1: 80e7f057fd95b822591fbf23c76d8eed987acf3a
-SHA256: d7515af2d9c1b01c829c9148f8a50ed9989bb8ae7fed78b5bdfe2607e1e362bc
-Section: Development
-Description: Based almost 100% on libstatusbar by phoenix3200. This version replaces libstatusbar. Compiled for armv7 and arm64. Testet on Devices with iOS 7.1.2 to 10.2
-Tag: purpose::extension, role::developer, compatible::ios9, compatible::ios10
-Author: Rene Kahle <packetfahrer@web.de>
-Dev: Rene Kahle <packetfahrer@web.de>
-Name: libstatus9
-
